@@ -1,0 +1,47 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='styles/main.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='styles/buttons.css') }}"
+        />
+        <script src="{{ url_for('static', filename='scripts/main.js') }}"></script>
+        <title>{% block title %}My Flask App{% endblock %}</title>
+    </head>
+    <body>
+        <div class="website">
+            <div class="navigation-container0 hover-control">
+                <div class="fixed-nav-icon hover-trans-invisible"><img src="../static/icons/menu-grid.png"/></div>
+                <nav class="navigation hover-trans-visible">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('json') }}">Json</a>
+                </nav>
+                {% block sub_navigation %}
+                <nav class="sub-navigation hover-trans-visible">
+
+                </nav>
+                {% endblock %}
+            </div>
+
+            <div class="content">
+                {% block content %}
+                <div class="index">
+                    <h1>Imge</h1>
+                </div>
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

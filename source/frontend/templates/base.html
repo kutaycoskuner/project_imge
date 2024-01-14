@@ -1,0 +1,45 @@
+
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ url_for('static', filename='styles/main.css') }}"
+/>
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ url_for('static', filename='styles/buttons.css') }}"
+/>
+
+title in ustune index.html
+
+<div class="entry-box">
+    <label for="entry">Enter something:</label>
+    <div class="dropdown-container">
+        <select id="options-dropdown">
+            <option value="Ingredient">Option 1</option>
+            <option value="">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+    </div>
+
+    <input
+        type="text"
+        id="entry"
+        name="entry"
+    />
+    <button type="button">Submit</button>
+</div>
+
+
+<a 
+class="add-button" 
+onclick=""
+><img src="../static/icons/plus-symbol-button.png" alt="Image Alt Text"></a>
+<a
+class="edit-button"
+onclick="edit_ingredient('{{ is_edit_mode }}','{{ recipe.name }}', '{{ ingredient.name }}')"
+><img src="../static/icons/pen.png" alt="Image Alt Text"></a>
+<a
+class="delete-button"
+onclick="delete_ingredient('{{ recipe.name }}', '{{ ingredient.name }}')"
+><img src="../static/icons/delete-button.png" alt="Image Alt Text"></a>

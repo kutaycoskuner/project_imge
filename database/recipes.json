@@ -1,0 +1,647 @@
+{
+    "recipes": [
+        {
+            "name": "Chicken Alfredo Pasta",
+            "ingredients": [
+                {
+                    "name": "Fettuccine Pasta",
+                    "amount": 8,
+                    "unit": "ounces",
+                    "icon": "pasta-icon.png"
+                },
+                {
+                    "name": "Chicken Breast",
+                    "amount": 1,
+                    "unit": "unit",
+                    "icon": "chicken-icon.png"
+                },
+                {
+                    "name": "Heavy Cream",
+                    "amount": 1,
+                    "unit": "cup",
+                    "icon": "cream-icon.png"
+                },
+                {
+                    "name": "Parmesan Cheese",
+                    "amount": 1,
+                    "unit": "cup",
+                    "icon": "cheese-icon.png"
+                },
+                {
+                    "name": "Garlic",
+                    "amount": 2,
+                    "unit": "cloves",
+                    "icon": "garlic-icon.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Large Pot",
+                    "icon": "pot-icon.png"
+                },
+                {
+                    "name": "Saut\u00c3\u00a9 Pan",
+                    "icon": "saut\u00c3\u00a9-pan-icon.png"
+                },
+                {
+                    "name": "Whisk",
+                    "icon": "whisk-icon.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Cook fettuccine pasta according to package instructions.",
+                    "animation": "boil-pasta-animation.gif"
+                },
+                {
+                    "name": "Saut\u00c3\u00a9 chicken and garlic in a pan until chicken is cooked through.",
+                    "animation": "saut\u00c3\u00a9-chicken-animation.gif"
+                },
+                {
+                    "name": "Pour in heavy cream and add Parmesan cheese. Whisk until sauce thickens.",
+                    "animation": "whisk-sauce-animation.gif"
+                },
+                {
+                    "name": "Combine cooked pasta with Alfredo sauce and serve hot.",
+                    "animation": "combine-pasta-animation.gif"
+                }
+            ]
+        },
+        {
+            "name": "Caprese Salad",
+            "ingredients": [
+                {
+                    "name": "Tomatoes",
+                    "amount": "2",
+                    "unit": "units",
+                    "icon": "tomato-icon.png"
+                },
+                {
+                    "name": "Fresh Mozzarella",
+                    "amount": "1",
+                    "unit": "cup",
+                    "icon": "mozzarella-icon.png"
+                },
+                {
+                    "name": "Fresh Basil",
+                    "amount": 1,
+                    "unit": "cup",
+                    "icon": "basil-icon.png"
+                },
+                {
+                    "name": "Balsamic Glaze",
+                    "amount": 2,
+                    "unit": "tablespoons",
+                    "icon": "balsamic-glaze-icon.png"
+                },
+                {
+                    "name": "Olive Oil",
+                    "amount": 2,
+                    "unit": "tablespoons",
+                    "icon": "olive-oil-icon.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Chef's Knife",
+                    "icon": "chefs-knife-icon.png"
+                },
+                {
+                    "name": "Serving Platter",
+                    "icon": "serving-platter-icon.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Slice tomatoes and fresh mozzarella into rounds.",
+                    "animation": "slice-tomatoes-animation.gif"
+                },
+                {
+                    "name": "Arrange tomato, mozzarella, and basil on a serving platter.",
+                    "animation": "arrange-salad-animation.gif"
+                },
+                {
+                    "name": "Drizzle with balsamic glaze and olive oil. Season with salt and pepper.",
+                    "animation": "drizzle-dressing-animation.gif"
+                },
+                {
+                    "name": "Serve immediately as a refreshing salad.",
+                    "animation": "serve-salad-animation.gif"
+                }
+            ]
+        },
+        {
+            "name": "Vegetable Curry",
+            "ingredients": [
+                {
+                    "name": "Potatoes",
+                    "amount": "2",
+                    "unit": "cups",
+                    "icon": "potato-icon.png"
+                },
+                {
+                    "name": "Carrots",
+                    "amount": "1",
+                    "unit": "cup",
+                    "icon": "carrot-icon.png"
+                },
+                {
+                    "name": "Peas",
+                    "amount": "1",
+                    "unit": "cup",
+                    "icon": "pea-icon.png"
+                },
+                {
+                    "name": "Cauliflower",
+                    "amount": "1",
+                    "unit": "cup",
+                    "icon": "cauliflower-icon.png"
+                },
+                {
+                    "name": "Curry Powder",
+                    "amount": 2,
+                    "unit": "tablespoons",
+                    "icon": "curry-powder-icon.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Large Pot",
+                    "icon": "pot-icon.png"
+                },
+                {
+                    "name": "Wooden Spoon",
+                    "icon": "wooden-spoon-icon.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Peel and chop potatoes, carrots, and cauliflower.",
+                    "animation": "chop-vegetables-animation.gif"
+                },
+                {
+                    "name": "In a large pot, cook vegetables with curry powder until tender.",
+                    "animation": "cook-curry-animation.gif"
+                },
+                {
+                    "name": "Add peas and simmer until all vegetables are cooked.",
+                    "animation": "simmer-vegetables-animation.gif"
+                },
+                {
+                    "name": "Serve hot with rice or bread.",
+                    "animation": "serve-curry-animation.gif"
+                }
+            ]
+        },
+        {
+            "name": "Shrimp Scampi",
+            "ingredients": [
+                {
+                    "name": "Linguine Pasta",
+                    "amount": 8,
+                    "unit": "ounces",
+                    "icon": "pasta-icon.png"
+                },
+                {
+                    "name": "Shrimp",
+                    "amount": 1,
+                    "unit": "pound",
+                    "icon": "shrimp-icon.png"
+                },
+                {
+                    "name": "Garlic",
+                    "amount": 4,
+                    "unit": "cloves",
+                    "icon": "garlic-icon.png"
+                },
+                {
+                    "name": "White Wine",
+                    "amount": 1,
+                    "unit": "cup",
+                    "icon": "wine-icon.png"
+                },
+                {
+                    "name": "Lemon",
+                    "amount": 1,
+                    "unit": "unit",
+                    "icon": "lemon-icon.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Saut\u00c3\u00a9 Pan",
+                    "icon": "saut\u00c3\u00a9-pan-icon.png"
+                },
+                {
+                    "name": "Lemon Zester",
+                    "icon": "zester-icon.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Cook linguine pasta according to package instructions.",
+                    "animation": "boil-pasta-animation.gif"
+                },
+                {
+                    "name": "Saut\u00c3\u00a9 shrimp and garlic in a pan until shrimp turns pink.",
+                    "animation": "saut\u00c3\u00a9-shrimp-animation.gif"
+                },
+                {
+                    "name": "Deglaze the pan with white wine and add lemon zest.",
+                    "animation": "deglaze-pan-animation.gif"
+                },
+                {
+                    "name": "Combine cooked linguine with shrimp scampi and serve.",
+                    "animation": "combine-pasta-shrimp-animation.gif"
+                }
+            ]
+        },
+        {
+            "name": "Kumpir",
+            "ingredients": [
+                {
+                    "name": "B\u00fcy\u00fck Patates",
+                    "amount": "1",
+                    "unit": "tane",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Misir",
+                    "amount": "50",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Siyah Zeytin",
+                    "amount": "50",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Bezelye",
+                    "amount": "50",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Rende Peynir",
+                    "amount": "50 ",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Tereyagi",
+                    "amount": "1",
+                    "unit": "kasik",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Havuc",
+                    "amount": "1",
+                    "unit": "adet",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Turp",
+                    "amount": "1",
+                    "unit": "Adet",
+                    "icon": "default-ingredient.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Bicak",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Firin",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "K\u00fcc\u00fck Kasik",
+                    "icon": "default-tool.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Patatesleri firina at, cok sicak olana kadar bekle",
+                    "animation": "none"
+                },
+                {
+                    "name": "Kumpire koyulacak malzemeleri ayri tabaklarda hazirla",
+                    "animation": "none"
+                },
+                {
+                    "name": "Cok sicak sekilde firindan cikan patatesler, kaba alinarak, rende peynir ve tereyagi ile karistirilarak eritilir",
+                    "animation": "none"
+                }
+            ]
+        },
+        {
+            "name": "Nohutlu Pilav",
+            "ingredients": [
+                {
+                    "name": "Pirinc",
+                    "amount": "0.5",
+                    "unit": "bardak",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Nohut",
+                    "amount": "200",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Bezelye",
+                    "amount": "200",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Tereyagi",
+                    "amount": "1",
+                    "unit": "kasik",
+                    "icon": "default-ingredient.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Genis Basik Pilav Tenceresi",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Suzgec",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Pirinci suda bekletmek icin kap",
+                    "icon": "default-tool.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Pirinci az tuzlu suda beklet",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tencerede Tereyagini erit",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tencereye pirinci at ve sararana kadar kavur",
+                    "animation": "none"
+                },
+                {
+                    "name": "Nohutu ve bezelyeyi ekle",
+                    "animation": "none"
+                },
+                {
+                    "name": "Pirincin seviyesini az gececek kadar su ekle",
+                    "animation": "none"
+                },
+                {
+                    "name": "10 Ar dakika yuksek, orta ve kisik ateste pisir. Arada dibini tutmamasi icin cevir",
+                    "animation": "none"
+                },
+                {
+                    "name": "Pilav suyunu cektikten sonra kapagi kapatip kisik ateste demlenmeye birak",
+                    "animation": "none"
+                }
+            ]
+        },
+        {
+            "name": "Mercimek Corbasi",
+            "ingredients": [
+                {
+                    "name": "Mercimek",
+                    "amount": "1.5",
+                    "unit": "bardak",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Tereyagi",
+                    "amount": "1",
+                    "unit": "kasik",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Orta boy patates",
+                    "amount": "1",
+                    "unit": "adet",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Orta boy havuc",
+                    "amount": "1.5",
+                    "unit": "adet",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Kimyon",
+                    "amount": "1",
+                    "unit": "cay kasigi",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Nane",
+                    "amount": "1",
+                    "unit": "cay kasigi",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Tuz",
+                    "amount": "1",
+                    "unit": "cay kasigi",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Sogan",
+                    "amount": "1",
+                    "unit": "tam",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Sarimsak",
+                    "amount": "1",
+                    "unit": "dis",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Su",
+                    "amount": "4-5",
+                    "unit": "bardak",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Limon",
+                    "amount": "1",
+                    "unit": "adet",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Ekmek",
+                    "amount": "1",
+                    "unit": "adet",
+                    "icon": "default-ingredient.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Tencere",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Mixer",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Rende",
+                    "icon": "default-tool.png"
+                },
+                {
+                    "name": "Suzgec",
+                    "icon": "default-tool.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Baharatlari karistir.",
+                    "animation": "none"
+                },
+                {
+                    "name": "Sogan, patates, havucu soy",
+                    "animation": "none"
+                },
+                {
+                    "name": "Patates ve havucu rendele",
+                    "animation": "none"
+                },
+                {
+                    "name": "Mercimegi suzgecte yika",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tereyagini tencerede erit",
+                    "animation": "none"
+                },
+                {
+                    "name": "Mercimegi atip hafifce kavur",
+                    "animation": "none"
+                },
+                {
+                    "name": "Uc bardardak su kat",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tam sogan, patates, havuc ve baharatlari at",
+                    "animation": "none"
+                },
+                {
+                    "name": "Hep beraber mercikmekler yumusayana kadar orta ateste kapagi kapatip pisir",
+                    "animation": "none"
+                },
+                {
+                    "name": "Mercimekler yumusadiginda mixer ile corbayi karistir.",
+                    "animation": "none"
+                },
+                {
+                    "name": "On dakika daha kisik ateste pisir.",
+                    "animation": "none"
+                }
+            ]
+        },
+        {
+            "name": "Firinda Tavuk Kanat",
+            "ingredients": [
+                {
+                    "name": "Tavuk kanat",
+                    "amount": "400",
+                    "unit": "gram",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Yogurt",
+                    "amount": "1",
+                    "unit": "kasik",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Baharatlar",
+                    "amount": "1",
+                    "unit": "unit",
+                    "icon": "default-ingredient.png"
+                },
+                {
+                    "name": "Firin kagidi",
+                    "amount": "1",
+                    "unit": "unit",
+                    "icon": "default-ingredient.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Firin veya Air fryer",
+                    "icon": "default-tool.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "Tavuklari yika ve kaba al",
+                    "animation": "none"
+                },
+                {
+                    "name": "Iki kasik yogurdu baharatlarla karistir.",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tavuklari firin tepsisine esit olarak dagit",
+                    "animation": "none"
+                },
+                {
+                    "name": "Tavuklarin ustune yogurtlu sostan s\u00fcr",
+                    "animation": "none"
+                },
+                {
+                    "name": "\u00dcstu tamamen kizarana kadar bekle",
+                    "animation": "none"
+                }
+            ]
+        },
+        {
+            "name": "Firinda Mantar",
+            "ingredients": [],
+            "tools": [],
+            "steps": []
+        },
+        {
+            "name": "Acma",
+            "ingredients": [],
+            "tools": [],
+            "steps": []
+        },
+        {
+            "name": "Ciger",
+            "ingredients": [
+                {
+                    "name": "test edit",
+                    "amount": "1",
+                    "unit": "unit",
+                    "icon": "default-ingredient.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "stuff",
+                    "icon": "default-tool.png"
+                }
+            ],
+            "steps": [
+                {
+                    "name": "something",
+                    "animation": "none"
+                }
+            ]
+        }
+    ]
+}
