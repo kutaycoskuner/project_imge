@@ -1,0 +1,19 @@
+{
+    "colors": {
+        "black": ["#040404", "#060606"],
+        "white": ["#fdfdfd", "#f2f2f2"],
+        "darkgray": ["#181818", "#242424", "#212426"],
+        "whitegray": ["#dbdbdb"],
+
+        "red": ["#880000", "#c40001","#ff414d"],
+        "green": ["#2cb95e","#99ff33"],
+        "blue": ["#4862db", "#00c8ff"],
+
+        "yellow": ["#ffa600", "#ffbd00"],
+        "orange": [ "#9c2706", "#fb7e00", "#ffa100"],
+        "violet": ["#c43beb"],
+        
+        "pink": ["#da1991"],
+        "cyan": ["#35a8c3", "#06b4ba"]
+    }
+}

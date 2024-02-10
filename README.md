@@ -3,7 +3,7 @@ A web-based json editor.
 
 | Project Started | Last Update |
 | :-------------- | :---------- |
-| 14 Jan 2024     | 14 Jan 2024 |
+| 14 Jan 2024     | 10 Feb 2024 |
 
 # Table of Contents
 

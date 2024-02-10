@@ -1,0 +1,46 @@
+{
+    "cad_colors": {
+        "base": {
+            "0": "#ffffff"
+        },
+        "static": {
+            "0": "#ffffff"
+            ,"land": ""
+            ,"building": ""
+            ,"references": ""
+            ,"territory": ""
+            ,"topography": ""
+        },
+        "abstract": {
+            "axis": ""
+            ,"building": ""
+            ,"projections": ""
+            ,"section cut": ""
+            ,"slope": ""
+            ,"structure": ""
+
+        },
+        "circulation": {
+            "door": "#ffffff"
+            ,"fence": ""
+            ,"floor": ""
+            ,"glass wall": ""
+            ,"out focus": ""
+            ,"stair & ramp": ""
+            ,"wall": ""
+            ,"window": ""
+        },
+        "moveable": {
+            "0": "#ffffff"
+        },
+        "pathways": {
+            "0": "#ffffff"
+        },
+        "writing": {
+            "0": "#ffffff"
+        },
+        "hatching": {
+            "0": "#ffffff"
+        }
+    }
+}

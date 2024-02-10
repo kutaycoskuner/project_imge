@@ -47,9 +47,6 @@ function toggle_edit_mode(recipe_name, metadata_type, identifier) {
     });
 
     if (is_edit_mode) {
-
-    }
-    else {
-
+    } else {
     }
 }

@@ -42,6 +42,14 @@
 # Todo
 
 # Log 
+- [0.11] add: colors project
+    - 10-Feb-2024
+        - add: colors default map
+        - add: color data
+    - 14-Jan-2024
+        - add project board
+        - add css fields: lineer tree, type, canvas
+
 - [0.10] add: flask project template
     - 14-Jan-2024 add: my flask project template
  

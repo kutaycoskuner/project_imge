@@ -1,0 +1,36 @@
+<!-- templates/about.html -->
+{% extends 'index.html' %} {% block title %}Colors{% endblock %}
+{% block content %}
+<div class="grid-r1c3">
+
+    {% for color, shades in data["colors"].items() %}
+    <div class="color-category">
+        {% if shades %}
+            <div class="color-category-title"> {{ color }} </div>
+            {% for shade in shades %}
+                <div class="color-box" style="background-color: {{ shade }};">
+                    <span class="color-name">{{ shade }}</span>
+                    <span class="color-separator">|</span>
+                    <span class="color-rgb">{{ shade | hex_to_rgb }}</span>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+<script>
+    function setContrastTextColor(element) {
+        var backgroundColor = element.style.backgroundColor;
+        var rgb = backgroundColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+        if (rgb) {
+            var brightness = (rgb[1] * 299 + rgb[2] * 587 + rgb[3] * 114) / 1000;
+            var textColor = (brightness > 125) ? '#121212' : '#fdfdfd';
+            element.style.color = textColor;
+        }
+    }
+    var colorBoxes = document.querySelectorAll('.color-box');
+    colorBoxes.forEach(function(box) {
+        setContrastTextColor(box);
+    });
+</script>
+{% endblock %}

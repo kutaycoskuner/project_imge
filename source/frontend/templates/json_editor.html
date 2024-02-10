@@ -1,0 +1,24 @@
+<!-- templates/about.html -->
+{% extends 'index.html' %} {% block title %}JSON Editor{% endblock %}
+{% block content %}
+<div class="grid-r2c20">
+    <div class="grid-r2c20-r1">
+        <div class="grid-r2c20-r1-c1 data-linear-tree-nav">
+            :root
+
+        </div>
+        <div class="grid-r2c20-r1-c2 data-edit-type">
+            Edit: Model
+        </div>
+    </div>
+
+    <div class="grid-r2c20-r2 data-canvas">
+        {% for key in data.items() %}
+
+            {{ key }}
+            {{ key |get_type_name }}
+
+        {%endfor%}
+    </div>
+</div>
+{% endblock %}

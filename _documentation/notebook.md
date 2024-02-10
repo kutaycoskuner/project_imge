@@ -16,6 +16,9 @@
     - halftone example
         - https://codepen.io/ycw/pen/NBjqze
 
+- project board
+    - https://miro.com/app/board/uXjVN6ccHf0=/
+
 # Keywords
 
 # Structure
